@@ -2,7 +2,7 @@
 
 **#Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples. Read the training data from a .CSV file**
 
-# Steps Involved In Find-S :
+## Steps Involved In Find-S :
 
 1.Start with the most specific hypothesis. 
   h = {ϕ, ϕ, ϕ, ϕ, ϕ, ϕ}
@@ -11,7 +11,7 @@
 4.Keep repeating the above steps till all the training examples are complete.
 5.After we have completed all the training examples we will have the final hypothesis when can use to classify the new examples.
 
-**Example :**
+## Example :
 Consider the following data set having the data about which particular seeds are poisonous. 
  
 First, we consider the hypothesis to be a more specific hypothesis. Hence, our hypothesis would be : 
@@ -43,7 +43,7 @@ Hence, for the given data the final hypothesis would be :
 Final Hyposthesis: h = { ?, ?, ?, ? } 
 
 
-**#Algorithm :**
+# Algorithm :
 1. Initialize h to the most specific hypothesis in H
 2. For each positive training instance x
     For each attribute constraint a, in h
