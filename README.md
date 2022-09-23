@@ -1,7 +1,7 @@
-## Machine-Learning-Practicals
-###Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples. Read the training data from a .CSV file 
+**#Machine-Learning-Practicals**
+**#Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples. Read the training data from a .CSV file**
 
-###Steps Involved In Find-S : 
+**#Steps Involved In Find-S :** 
 
 1.Start with the most specific hypothesis. 
   h = {ϕ, ϕ, ϕ, ϕ, ϕ, ϕ}
@@ -42,7 +42,7 @@ Hence, for the given data the final hypothesis would be :
 Final Hyposthesis: h = { ?, ?, ?, ? } 
 
 
-#Algorithm :
+**#Algorithm :**
 1. Initialize h to the most specific hypothesis in H
 2. For each positive training instance x
     For each attribute constraint a, in h
