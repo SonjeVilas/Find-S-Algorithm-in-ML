@@ -19,28 +19,35 @@
 Consider the following data set having the data about which particular seeds are poisonous. 
  
 First, we consider the hypothesis to be a more specific hypothesis. Hence, our hypothesis would be : 
+
 h = {ϕ, ϕ, ϕ, ϕ, ϕ, ϕ} 
   
 Consider example 1 : 
 The data in example 1 is { GREEN, HARD, NO, WRINKLED }. We see that our initial hypothesis is more specific and we have to generalize it for this example. Hence, the hypothesis becomes : 
+
 h = { GREEN, HARD, NO, WRINKLED } 
 
 Consider example 2 : 
 Here we see that this example has a negative outcome. Hence we neglect this example and our hypothesis remains the same. 
+
 h = { GREEN, HARD, NO, WRINKLED } 
 
 Consider example 3 : 
 Here we see that this example has a negative outcome. Hence we neglect this example and our hypothesis remains the same. 
+
 h = { GREEN, HARD, NO, WRINKLED } 
 
 Consider example 4 : 
 The data present in example 4 is { ORANGE, HARD, NO, WRINKLED }. We compare every single attribute with the initial data and if any mismatch is found we replace that particular attribute with a general case ( ” ? ” ). After doing the process the hypothesis becomes : 
+
 h = { ?, HARD, NO, WRINKLED } 
 
 Consider example 5 : 
 The data present in example 5 is { GREEN, SOFT, YES, SMOOTH }. We compare every single attribute with the initial data and if any mismatch is found we replace that particular attribute with a general case ( ” ? ” ). After doing the process the hypothesis becomes : 
+
 h = { ?, ?, ?, ? } 
 Since we have reached a point where all the attributes in our hypothesis have the general condition, example 6 and example 7 would result in the same hypothesizes with all general attributes. 
+
 h = { ?, ?, ?, ? } 
 
 Hence, for the given data the final hypothesis would be : 
