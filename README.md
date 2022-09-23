@@ -10,13 +10,12 @@
 4.Keep repeating the above steps till all the training examples are complete.
 5.After we have completed all the training examples we will have the final hypothesis when can use to classify the new examples.
 
-#Example : 
+**Example :**
 Consider the following data set having the data about which particular seeds are poisonous. 
  
 First, we consider the hypothesis to be a more specific hypothesis. Hence, our hypothesis would be : 
 h = {ϕ, ϕ, ϕ, ϕ, ϕ, ϕ} 
   
-
 Consider example 1 : 
 The data in example 1 is { GREEN, HARD, NO, WRINKLED }. We see that our initial hypothesis is more specific and we have to generalize it for this example. Hence, the hypothesis becomes : 
 h = { GREEN, HARD, NO, WRINKLED } 
